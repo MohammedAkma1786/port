@@ -22,10 +22,12 @@ const Hero = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-colors"
+                title="GitHub"
               >
                 <Github size={24} />
               </a>
               <a
+              title="LinkedIn"
                 href="https://www.linkedin.com/in/mohammed-akmal-391850234"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -34,6 +36,7 @@ const Hero = () => {
                 <Linkedin size={24} />
               </a>
               <a
+              title="Email"
                 href="mailto:mohammedakmal003@gmail.com"
                 className="p-2 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-colors"
               >
