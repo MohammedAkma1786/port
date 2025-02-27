@@ -4,9 +4,9 @@ export const projects: Project[] = [
   {
     title: "CRYPTOCURRENCY TRACKER",
     description: "Built a responsive cryptocurrency tracking platform using TypeScript, React, Vite, Tailwind CSS, and shadcn/ui for the frontend, integrated with Supabase for backend services, and utilized Recharts for data visualization, React Query for state management, and React Router for navigation.",
-    image: "/uploads/crypto.png",
-    github: "https://github.com/MohammedAkma1786/Trading786",
-    live: "https://trading786.vercel.app/"
+    image: "/uploads/crypto.jpeg",
+    github: "https://github.com/MohammedAkma1786/Crypto",
+    live: "https://crypto-gamma-taupe.vercel.app/"
   },
   {
     title: "ECOMMERCE WEBSITE",
@@ -33,7 +33,7 @@ export const projects: Project[] = [
     title: "FINANCE TRACKER",
     description: "A website use to track your finances using React.js, Typescript, Tailwind and Firebase.",
     image: "/uploads/finance.png",
-    github: "https://github.com/MohammedAkma1786/finance-wisdom-garden",
-    live: "https://finance-wisdom-garden.vercel.app/"
+    github: "https://github.com/MohammedAkma1786/finance-wisdom-garden-main1",
+    live: "https://finance-wisdom-garden-main1-6tw4qsijf.vercel.app/"
   }
 ];
