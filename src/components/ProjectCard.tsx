@@ -36,6 +36,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           </p>
           <div className="flex justify-center space-x-4">
             <a
+            title="Github"
               href={project.github}
               target="_blank"
               rel="noopener noreferrer"
@@ -44,6 +45,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
               <Github size={20} />
             </a>
             <a
+            title="Live"
               href={project.live}
               target="_blank"
               rel="noopener noreferrer"
