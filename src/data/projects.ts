@@ -26,7 +26,7 @@ export const projects: Project[] = [
   {
     title: "FINANCE TRACKER",
     image: "/uploads/finance.png",
-    github: "https://github.com/MohammedAkma1786/finance-wisdom-garden-main1",
+    github: "https://github.com/MohammedAkma1786/Finance-Management",
     live: "/projects/FINANCE%20TRACKER", // Match the title exactly
     description: "A comprehensive finance tracking application to manage expenses and budgets."
   }

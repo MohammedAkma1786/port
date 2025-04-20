@@ -32,7 +32,8 @@ const ProjectDetails = () => {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full max-w-lg h-auto mx-auto rounded-lg shadow-lg mb-8"
+        className="w-full max-w-lg h-auto mx-auto rounded-lg shadow-lg mb-8 cursor-pointer"
+        onClick={() => openModal(project.image)} // Allow the main image to expand
       />
 
       {/* Section: Finance Architecture and Deployment */}
@@ -113,7 +114,7 @@ const ProjectDetails = () => {
           View on GitHub
         </a>
         <a
-          href={project.live}
+          href="http://finance-wisdom-garden-service-lb-407927024.eu-west-2.elb.amazonaws.com/" // Updated link
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-green-500 text-white px-6 py-3 rounded-lg shadow-md hover:bg-green-600 transition ml-4"
