@@ -41,24 +41,26 @@ const ProjectDetails = () => {
         <h2 className="text-2xl font-semibold text-gray-700 mb-6 text-center">
           Finance Architecture and Deployment
         </h2>
-        <div className="flex flex-wrap justify-center gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {/* Top Row: Two Images */}
           <img
-            src="/uploads/finance-architecture.png"
-            alt="Finance Architecture"
-            className="w-2/3 h-auto rounded-lg shadow-md cursor-pointer"
-            onClick={() => openModal("/uploads/finance-architecture.png")}
+            src="/uploads/github-actions-screenshot.png" // Swapped with the third image
+            alt="GitHub Actions Screenshot"
+            className="w-full h-auto rounded-lg shadow-md cursor-pointer"
+            onClick={() => openModal("/uploads/github-actions-screenshot.png")}
           />
           <img
             src="/uploads/ecs-ss.png"
             alt="ECS Screenshot"
-            className="w-2/3 h-auto rounded-lg shadow-md cursor-pointer"
+            className="w-full h-auto rounded-lg shadow-md cursor-pointer"
             onClick={() => openModal("/uploads/ecs-ss.png")}
           />
+          {/* Bottom Row: One Image */}
           <img
-            src="/uploads/github-actions-screenshot.png"
-            alt="GitHub Actions Screenshot"
-            className="w-2/3 h-auto rounded-lg shadow-md cursor-pointer"
-            onClick={() => openModal("/uploads/github-actions-screenshot.png")}
+            src="/uploads/finance-architecture.png" // Swapped with the first image
+            alt="Finance Architecture"
+            className="w-full h-auto rounded-lg shadow-md cursor-pointer md:col-span-2"
+            onClick={() => openModal("/uploads/finance-architecture.png")}
           />
         </div>
       </div>
