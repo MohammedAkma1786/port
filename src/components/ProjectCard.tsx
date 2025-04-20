@@ -47,7 +47,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             <a
             title="Live"
               href={project.live}
-              target="_blank"
+              target="/_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-white transition-colors"
             >
