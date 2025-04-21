@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom"; // Import useNavigate
 import { projects } from "@/data/projects";
 
 const ProjectDetails = () => {
   const { title } = useParams<{ title: string }>();
+  const navigate = useNavigate(); // Initialize useNavigate
   const project = projects.find((p) => p.title === title);
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,6 +26,15 @@ const ProjectDetails = () => {
 
   return (
     <div className="relative">
+      {/* Back Arrow */}
+      <button
+        onClick={() => navigate("/")} // Navigate to the Hero component (main page)
+        className="absolute top-4 left-4 bg-gray-800 text-white p-2 rounded-full shadow-md hover:bg-gray-700 transition"
+        title="Go Back"
+      >
+        ← Back
+      </button>
+
       {/* Animated Background */}
       <div className="absolute inset-0 animate-color-change blur-2xl -z-10"></div>
 
