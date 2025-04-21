@@ -7,14 +7,15 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="flex-1 animate-fade-up">
             <h1 className="text-6xl font-bold mb-4">
-              Hi, Its
+              Hi, I am
               <span className="text-primary block mt-2">Mohammed</span>
             </h1>
             <p className="text-xl mb-8">
-              I'm a passionate and detail-oriented Frontend Developer creating responsive,
-              user-friendly web interfaces. My journey in web development began 2 years ago,
-              and since then, I've been dedicated to turning design concepts into fully
-              functional, visually appealing websites and applications.
+              I'm a passionate <strong>Frontend Developer</strong> and <strong>Cloud Enthusiast</strong> with a keen interest in building scalable, responsive web applications and leveraging cloud technologies to deliver seamless user experiences. 
+              My journey in web development and cloud computing has been fueled by a desire to create impactful solutions that bridge design and functionality.
+            </p>
+            <p className="text-xl mb-8">
+              With expertise in modern frontend frameworks like <strong>React</strong> and a growing proficiency in cloud platforms such as <strong>AWS</strong> and <strong>Azure</strong>, I aim to craft applications that are not only visually appealing but also robust and scalable.
             </p>
             <div className="flex space-x-4">
               <a
@@ -27,18 +28,18 @@ const Hero = () => {
                 <Github size={24} />
               </a>
               <a
-              title="LinkedIn"
                 href="https://www.linkedin.com/in/mohammed-akmal-391850234"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-colors"
+                title="LinkedIn"
               >
                 <Linkedin size={24} />
               </a>
               <a
-              title="Email"
                 href="mailto:mohammedakmal003@gmail.com"
                 className="p-2 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-colors"
+                title="Email"
               >
                 <Mail size={24} />
               </a>
