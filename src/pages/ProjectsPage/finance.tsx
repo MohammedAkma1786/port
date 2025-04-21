@@ -39,7 +39,7 @@ const ProjectDetails = () => {
       <div className="absolute inset-0 animate-color-change blur-2xl -z-10"></div>
 
       {/* Main Content */}
-      <div className="p-6 max-w-5xl mx-auto bg-[#0F0F0F]/60 text-white relative z-10 backdrop-blur-md rounded-lg shadow-lg">
+      <div className="p-6 max-w-7xl mx-auto bg-[#0F0F0F]/60 text-white relative z-10 backdrop-blur-md rounded-lg shadow-lg">
         {/* Project Title */}
         <h1 className="text-5xl font-extrabold text-center text-primary mb-8">{project.title}</h1>
 
@@ -48,7 +48,7 @@ const ProjectDetails = () => {
           <img
             src={project.image}
             alt={project.title}
-            className="w-full max-w-3xl h-auto rounded-lg shadow-lg cursor-pointer"
+            className="w-full max-w-4xl h-auto rounded-lg shadow-lg cursor-pointer"
             onClick={() => openModal(project.image)} // Allow the main image to expand
           />
         </div>
@@ -85,13 +85,14 @@ const ProjectDetails = () => {
         {/* Modal for Image Expansion */}
         {isModalOpen && (
           <div
-            className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50"
+            className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50"
             onClick={closeModal}
           >
             <img
               src={modalImage!}
               alt="Expanded View"
-              className="max-w-full max-h-full rounded-lg shadow-lg"
+              className="w-[100vw] h-[90vh] object-contain cursor-pointer"
+              onClick={closeModal} 
             />
           </div>
         )}
