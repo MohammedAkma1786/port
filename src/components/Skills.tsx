@@ -12,10 +12,10 @@ import {
   Webhook, 
   Box, 
   Network, 
-  FileType // Icon for TypeScript
+  FileType 
 } from "lucide-react";
-import { FaDocker } from "react-icons/fa"; // Import Docker icon
-import { SiTerraform } from "react-icons/si"; // Import Terraform icon
+import { FaDocker } from "react-icons/fa"; 
+import { SiTerraform } from "react-icons/si"; 
 
 const Skills = () => {
   const skills = [
@@ -33,8 +33,8 @@ const Skills = () => {
     { name: "REST APIs", icon: Webhook },
     { name: "Express", icon: Box },
     { name: "Redux", icon: Network },
-    { name: "Docker", icon: FaDocker }, // Added Docker with correct icon
-    { name: "Terraform", icon: SiTerraform } // Terraform icon
+    { name: "Docker", icon: FaDocker }, 
+    { name: "Terraform", icon: SiTerraform } 
   ];
 
   return (
