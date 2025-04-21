@@ -5,7 +5,7 @@ export const projects: Project[] = [
     title: "FINANCE TRACKER",
     image: "/uploads/finance.png",
     github: "https://github.com/MohammedAkma1786/Finance-Management",
-    live: "/pages/ProjectPage/FINANCE%20TRACKER",
+    live: "/projects/FINANCE%20TRACKER", // Corrected to match the route
     description: ""
   },
   {
@@ -22,7 +22,6 @@ export const projects: Project[] = [
     github: "https://github.com/MohammedAkma1786/shopping.website",
     live: "https://mohammedakma1786.github.io/shopping.website/"
   },
-  
   {
     title: "RENTING HOLIDAY HOMES",
     image: "/uploads/renting.png",
