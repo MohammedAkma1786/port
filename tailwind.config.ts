@@ -29,6 +29,22 @@ const animations = {
       "background-position": "right center",
     },
   },
+  "green-gradient": {
+    "0%, 100%": {
+      "background-position": "0% 50%",
+    },
+    "50%": {
+      "background-position": "100% 50%",
+    },
+  },
+  "green-flow": {
+    "0%, 100%": {
+      "background-position": "0% 50%",
+    },
+    "50%": {
+      "background-position": "100% 50%",
+    },
+  },
   blob: {
     "0%": {
       transform: "translate(0px, 0px) scale(1)",
@@ -50,6 +66,13 @@ const animations = {
   scanlines: {
     "0%": { transform: "translateY(0)" },
     "100%": { transform: "translateY(-100%)" },
+  },
+  "color-change": {
+    "0%": { "background-color": "#064E3B" }, // Dark green
+    "25%": { "background-color": "#065F46" }, // Slightly lighter green
+    "50%": { "background-color": "#047857" }, // Medium green
+    "75%": { "background-color": "#065F46" }, // Slightly lighter green
+    "100%": { "background-color": "#064E3B" }, // Back to dark green
   },
 };
 
@@ -97,9 +120,11 @@ export default {
         "fade-up": "fade-up 0.8s ease-out forwards",
         "fade-in": "fade-in 0.5s ease-out",
         "gradient-x": "gradient-x 15s ease infinite",
+        "green-gradient": "green-gradient 6s ease infinite",
         blob: "blob 7s infinite",
         grid: "grid 20s linear infinite",
         scanlines: "scanlines 8s linear infinite",
+        "color-change": "color-change 16s ease infinite", // Increased duration to 16 seconds
       },
       backgroundImage: {
         "grid-white":
