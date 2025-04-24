@@ -19,7 +19,7 @@ export const projects: Project[] = [
     title: "ECOMMERCE WEBSITE",
     description: "",
     image: "/uploads/ecommerce.png",
-    github: "https://github.com/MohammedAkma1786/shopping.website",
+    github: "https://github.com/MohammedAkma1786/shop",
     live: "https://mohammedakma1786.github.io/shopping.website/"
   },
   {
