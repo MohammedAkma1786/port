@@ -20,7 +20,7 @@ export const projects: Project[] = [
     description: "",
     image: "/uploads/ecommerce.png",
     github: "https://github.com/MohammedAkma1786/shop",
-    live: "https://mohammedakma1786.github.io/shopping.website/"
+    live: "https://shop-jade-theta.vercel.app/"
   },
   {
     title: "RENTING HOLIDAY HOMES",
