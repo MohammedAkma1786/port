@@ -5,16 +5,17 @@ export const projects: Project[] = [
     title: "FINANCE TRACKER",
     image: "/uploads/finance.png",
     github: "https://github.com/MohammedAkma1786/Finance-Management",
-    live: "/projects/FINANCE%20TRACKER", // Corrected to match the route
+    live: "/projects/FINANCE%20TRACKER", 
     description: ""
   },
+  /*
   {
     title: "CRYPTOCURRENCY TRACKER",
     description: "",
     image: "/uploads/crypto.jpeg",
     github: "https://github.com/MohammedAkma1786/Crypto",
     live: "https://crypto-gamma-taupe.vercel.app/"
-  },
+  },*/
   {
     title: "ECOMMERCE WEBSITE",
     description: "",
